@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Local Business Website Factory</title>
+  <meta name="description" content="A structured, render-safe engine that turns a small JSON record of a real business into a complete, mobile-responsive static website in seconds. Open source. India-first." />
+  <meta property="og:title" content="AI Local Business Website Factory" />
+  <meta property="og:description" content="Structured business data in. Clean, accessible static website out. Open source." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Local Business Website Factory" />
+  <meta name="twitter:description" content="Structured business data in. Clean, accessible static website out. Open source." />
+  <meta name="twitter:image" content="og-image.svg" />
+  <meta name="theme-color" content="#1E3A5F" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name">AI Local Business Website Factory</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#demos">Live demos</a>
+        <a href="#how">How it works</a>
+        <a href="https://github.com/scooterxd69/ai-local-business-website-factory">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Milestone 1 · Renderer Foundation</p>
+        <h1 class="hero-title">A real website. From a small, honest record of a business.</h1>
+        <p class="hero-lede">
+          The AI Local Business Website Factory is an open-source engine that takes a
+          structured JSON record of a real local business — restaurant, salon, or
+          coaching institute — and produces a complete, mobile-responsive, XSS-safe
+          static website. No frameworks. No JavaScript on the page. Just honest HTML
+          and CSS.
+        </p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#demos">View live demos</a>
+          <a class="btn btn-secondary" href="https://github.com/scooterxd69/ai-local-business-website-factory">Read the code</a>
+        </div>
+        <ul class="hero-stats" aria-label="What ships in Milestone 1">
+          <li><strong>69</strong><span>tests passing</span></li>
+          <li><strong>14</strong><span>section types</span></li>
+          <li><strong>3</strong><span>category profiles</span></li>
+          <li><strong>0</strong><span>client-side JavaScript</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="demos" class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>Live demos</h2>
+          <p>Three real-shaped businesses, rendered by the engine on every push to <code>main</code>. Click through to see the full site — no demo-mode, no fake data, no lorem ipsum.</p>
+        </header>
+
+        <ul class="demo-grid" role="list">
+          <li class="demo-card demo-card-restaurant">
+            <a href="restaurant/">
+              <div class="demo-card-stripe" style="background:#8B1A1A"></div>
+              <div class="demo-card-body">
+                <p class="demo-card-category">Restaurant</p>
+                <h3 class="demo-card-title">Sharma Family Restaurant</h3>
+                <p class="demo-card-meta">Prayagraj · Pure vegetarian since 1985</p>
+                <span class="demo-card-link">Open the site →</span>
+              </div>
+            </a>
+          </li>
+          <li class="demo-card demo-card-salon">
+            <a href="salon/">
+              <div class="demo-card-stripe" style="background:#8B5A8B"></div>
+              <div class="demo-card-body">
+                <p class="demo-card-category">Salon</p>
+                <h3 class="demo-card-title">Luxe Beauty Studio</h3>
+                <p class="demo-card-meta">Lucknow · Unisex hair, skin &amp; grooming</p>
+                <span class="demo-card-link">Open the site →</span>
+              </div>
+            </a>
+          </li>
+          <li class="demo-card demo-card-coaching">
+            <a href="coaching/">
+              <div class="demo-card-stripe" style="background:#1E3A5F"></div>
+              <div class="demo-card-body">
+                <p class="demo-card-category">Coaching</p>
+                <h3 class="demo-card-title">Bright Minds Tutorials</h3>
+                <p class="demo-card-meta">Patna · JEE, NEET &amp; boards since 2011</p>
+                <span class="demo-card-link">Open the site →</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="how" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>How it works</h2>
+          <p>The pipeline is small and the boundaries are sharp.</p>
+        </header>
+
+        <ol class="how-list" role="list">
+          <li class="how-step">
+            <span class="how-step-num" aria-hidden="true">1</span>
+            <div class="how-step-body">
+              <h3>Structured input</h3>
+              <p>A <code>Business</code> record (Zod-validated) describes what the business actually is: name, location, hours, services, contact, brand colour. No marketing copy is invented by the system.</p>
+            </div>
+          </li>
+          <li class="how-step">
+            <span class="how-step-num" aria-hidden="true">2</span>
+            <div class="how-step-body">
+              <h3>Category profile</h3>
+              <p>Each category — restaurant, salon, coaching — picks a default order of section types and a default theme. The profile is data, not code branches.</p>
+            </div>
+          </li>
+          <li class="how-step">
+            <span class="how-step-num" aria-hidden="true">3</span>
+            <div class="how-step-body">
+              <h3>Validate the spec</h3>
+              <p>The composed <code>WebsiteSpec</code> is itself Zod-validated. Hero must come first. Footer appears once. At least one content section. The renderer fails fast on bad input.</p>
+            </div>
+          </li>
+          <li class="how-step">
+            <span class="how-step-num" aria-hidden="true">4</span>
+            <div class="how-step-body">
+              <h3>Render — safely</h3>
+              <p>The renderer emits a single HTML file and a single CSS file. Every text node goes through <code>escape()</code>. Every URL goes through <code>sanitizeUrl()</code> and <code>escapeUrl()</code>. The output is XSS-safe by construction.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <header class="section-head">
+          <h2>What ships in Milestone 1</h2>
+          <p>Deliberately small. The renderer is the foundation; everything else is on top.</p>
+        </header>
+
+        <ul class="ship-grid" role="list">
+          <li>
+            <h3>Renderer</h3>
+            <p>Pure function <code>renderWebsite(spec, business)</code> returning <code>{html, css, structuredData, assets}</code>. 14 section types. Mobile-first CSS with theme variables.</p>
+          </li>
+          <li>
+            <h3>Schemas</h3>
+            <p>Zod-validated <code>Business</code> and <code>WebsiteSpec</code> as the single source of truth. TypeScript types are inferred from the schemas.</p>
+          </li>
+          <li>
+            <h3>Security boundary</h3>
+            <p>HTML, URL, and JSON escape helpers. <code>sanitizeUrl</code> rejects <code>javascript:</code>, <code>data:</code>, <code>file:</code>, and <code>vbscript:</code>. 26 security tests pin the contract.</p>
+          </li>
+          <li>
+            <h3>Category profiles</h3>
+            <p>3 profiles (restaurant, salon, coaching). Each one chooses a section order and a default theme. Sections without underlying data are omitted — never invented.</p>
+          </li>
+          <li>
+            <h3>CLI</h3>
+            <p><code>npm run render -- --business file.json --out dist/</code>. Renders to <code>index.html</code>, <code>styles.css</code>, <code>structured-data.json</code>.</p>
+          </li>
+          <li>
+            <h3>Tests</h3>
+            <p>69 tests across 6 files. Schemas, renderer, security, samples. Runs in ~1.5s.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <h2>What does not ship yet</h2>
+          <p>Milestone 1 proves the engine. The product layer comes next.</p>
+        </header>
+        <ul class="ship-grid" role="list">
+          <li>
+            <h3>No AI generation</h3>
+            <p>Sample inputs are hand-authored JSON. Calling Claude to produce a Business record is Milestone 2.</p>
+          </li>
+          <li>
+            <h3>No web UI</h3>
+            <p>There is no onboarding form, no live editor, no preview pane. Those are the next layer once the engine is proven.</p>
+          </li>
+          <li>
+            <h3>No database</h3>
+            <p>Each render is a pure function of its inputs. Persistence is intentionally not in scope yet.</p>
+          </li>
+          <li>
+            <h3>No hosting tier</h3>
+            <p>Generated sites are static. The customer hosts them. Subdomain-as-a-service is on the roadmap.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">AI Local Business Website Factory</p>
+        <p class="footer-meta">Open source · MIT · Built by the AI Workshop</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="https://github.com/scooterxd69/ai-local-business-website-factory">Source</a>
+        <a href="https://github.com/scooterxd69/ai-local-business-website-factory/blob/main/MILESTONE-1.md">Milestone 1</a>
+        <a href="https://github.com/scooterxd69/ai-local-business-website-factory/blob/main/docs/handoff/PROJECT-001-PRODUCTION-RELEASE.md">Release notes</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

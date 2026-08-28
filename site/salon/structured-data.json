@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Luxe Beauty Studio",
+  "description": "Your Style. Our Expertise.",
+  "telephone": "+91 88818 88800",
+  "email": "hello@luxebeauty.in",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Shop 12, Kapoorthala Complex, Aliganj",
+    "addressLocality": "Lucknow",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "226024",
+    "addressCountry": "India"
+  }
+}

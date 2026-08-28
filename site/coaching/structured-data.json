@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Bright Minds Tutorials",
+  "description": "Building Futures. One Concept at a Time.",
+  "telephone": "+91 98354 12345",
+  "email": "admissions@brightmindspatna.in",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2nd Floor, Raghunath Bhavan, Boring Road, Patna",
+    "addressLocality": "Patna",
+    "addressRegion": "Bihar",
+    "postalCode": "800001",
+    "addressCountry": "India"
+  }
+}

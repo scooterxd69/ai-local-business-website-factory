@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "category": "coaching",
+  "generatedAt": "2026-08-28T09:44:28.976Z",
+  "theme": {
+    "primaryColor": "#1E3A5F",
+    "accentColor": "#C2861F",
+    "backgroundColor": "#F8F6F1",
+    "textColor": "#0F1A2A",
+    "fontFamily": "sans-serif",
+    "fontScale": "standard",
+    "buttonStyle": "filled",
+    "imageTreatment": "contained"
+  },
+  "seo": {
+    "title": "Bright Minds Tutorials — Building Futures. One Concept at a Time. — Pa",
+    "description": "Patna's trusted coaching institute for JEE, NEET, and Board exam preparation. With 15 years of teaching excellence, we have helped over 3,000 students crack competitive exams."
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "title": "Bright Minds Tutorials",
+      "visible": true,
+      "content": {
+        "headline": "Building Futures. One Concept at a Time.",
+        "subheadline": "Patna, India",
+        "primaryCta": {
+          "label": "Call us",
+          "action": "call"
+        },
+        "secondaryCta": {
+          "label": "WhatsApp",
+          "action": "whatsapp"
+        },
+        "overlay": "gradient"
+      }
+    },
+    {
+      "type": "about",
+      "id": "about",
+      "title": "About",
+      "visible": true,
+      "content": {
+        "headline": "Building Futures. One Concept at a Time.",
+        "body": "Patna's trusted coaching institute for JEE, NEET, and Board exam preparation. With 15 years of teaching excellence, we have helped over 3,000 students crack competitive exams."
+      }
+    },
+    {
+      "type": "services",
+      "id": "services",
+      "title": "Our menu",
+      "visible": true,
+      "content": {
+        "heading": "Courses",
+        "services": [
+          {
+            "name": "JEE Dropper Batch",
+            "description": "Intensive 1-year program for JEE Main + Advanced. Daily tests, doubt sessions, mock tests.",
+            "price": "₹1,20,000/year"
+          },
+          {
+            "name": "NEET Foundation (Class 11-12)",
+            "description": "PCB preparation with Biology, Physics, and Chemistry specialists. Board + NEET integrated.",
+            "price": "₹85,000/year"
+          },
+          {
+            "name": "Board Exam Coaching (Class 10-12)",
+            "description": "CBSE + BSEB preparation with focused syllabus coverage and model test papers.",
+            "price": "₹40,000/year"
+          },
+          {
+            "name": "Foundation Course (Class 8-10)",
+            "description": "Build strong fundamentals in Science and Mathematics. NTSE and Olympiad preparation included.",
+            "price": "₹35,000/year"
+          },
+          {
+            "name": "Crash Courses",
+            "description": "30-day intensive revision before board and competitive exams.",
+            "price": "₹8,000 – ₹15,000"
+          },
+          {
+            "name": "Test Series",
+            "description": "Weekly tests for JEE/NEET. All-India ranking. Detailed analysis.",
+            "price": "₹3,000/month"
+          }
+        ],
+        "layout": "cards"
+      }
+    },
+    {
+      "type": "team",
+      "id": "team",
+      "title": "Meet the owner",
+      "visible": true,
+      "content": {
+        "heading": "Meet the owner",
+        "members": [
+          {
+            "name": "Dr. Anil Kumar",
+            "role": "Owner"
+          }
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "title": "Frequently asked questions",
+      "visible": true,
+      "content": {
+        "heading": "Frequently asked questions",
+        "items": [
+          {
+            "question": "What are your hours?",
+            "answer": "monday 08:00 – 20:00; tuesday 08:00 – 20:00; wednesday 08:00 – 20:00; thursday 08:00 – 20:00; friday 08:00 – 20:00; saturday 08:00 – 18:00; sunday 09:00 – 14:00"
+          },
+          {
+            "question": "Where are you located?",
+            "answer": "We are at 2nd Floor, Raghunath Bhavan, Patna, Bihar. Look for: Near Gandhi Maidan."
+          },
+          {
+            "question": "How do I contact you?",
+            "answer": "Call us at +91 98354 12345 or message us on WhatsApp."
+          }
+        ]
+      }
+    },
+    {
+      "type": "contact",
+      "id": "contact",
+      "title": "Contact",
+      "visible": true,
+      "content": {
+        "heading": "Contact us",
+        "phone": "+91 98354 12345",
+        "whatsapp": "+91 98354 12345",
+        "email": "admissions@brightmindspatna.in",
+        "address": "2nd Floor, Raghunath Bhavan, Boring Road, Patna, Patna, Bihar, 800001",
+        "hours": [
+          {
+            "day": "monday",
+            "open": "08:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "tuesday",
+            "open": "08:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "wednesday",
+            "open": "08:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "thursday",
+            "open": "08:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "friday",
+            "open": "08:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "saturday",
+            "open": "08:00",
+            "close": "18:00",
+            "closed": false
+          },
+          {
+            "day": "sunday",
+            "open": "09:00",
+            "close": "14:00",
+            "closed": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Get in touch",
+      "visible": true,
+      "content": {
+        "heading": "Ready to visit Bright Minds Tutorials?",
+        "description": "Building Futures. One Concept at a Time.",
+        "button": {
+          "label": "Chat on WhatsApp",
+          "action": "whatsapp"
+        }
+      }
+    }
+  ]
+}

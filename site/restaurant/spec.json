@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "category": "restaurant",
+  "generatedAt": "2026-08-28T09:48:56.093Z",
+  "theme": {
+    "primaryColor": "#8B1A1A",
+    "accentColor": "#C2410C",
+    "backgroundColor": "#FBF7F2",
+    "textColor": "#1F1A17",
+    "fontFamily": "serif",
+    "fontScale": "standard",
+    "buttonStyle": "filled",
+    "imageTreatment": "full-bleed"
+  },
+  "seo": {
+    "title": "Sharma Family Restaurant — Pure Vegetarian. Pure Taste. Since 1985. —",
+    "description": "A beloved Prayagraj institution serving authentic North Indian and South Indian vegetarian cuisine for over 38 years. Known for our dosas, chole bhature, and paneer dishes."
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "title": "Sharma Family Restaurant",
+      "visible": true,
+      "content": {
+        "headline": "Pure Vegetarian. Pure Taste. Since 1985.",
+        "subheadline": "Prayagraj, India",
+        "primaryCta": {
+          "label": "Call us",
+          "action": "call"
+        },
+        "secondaryCta": {
+          "label": "WhatsApp",
+          "action": "whatsapp"
+        },
+        "overlay": "gradient"
+      }
+    },
+    {
+      "type": "about",
+      "id": "about",
+      "title": "About",
+      "visible": true,
+      "content": {
+        "headline": "Pure Vegetarian. Pure Taste. Since 1985.",
+        "body": "A beloved Prayagraj institution serving authentic North Indian and South Indian vegetarian cuisine for over 38 years. Known for our dosas, chole bhature, and paneer dishes."
+      }
+    },
+    {
+      "type": "services",
+      "id": "services",
+      "title": "Our menu",
+      "visible": true,
+      "content": {
+        "heading": "Menu",
+        "services": [
+          {
+            "name": "South Indian Breakfast",
+            "description": "Masala dosa, plain dosa, idli, vada, uttapam with sambar and chutney",
+            "price": "₹80 – ₹180"
+          },
+          {
+            "name": "North Indian Thali",
+            "description": "Dal, 3 rotis, rice, paneer, salad, papad, sweet — unlimited",
+            "price": "₹299"
+          },
+          {
+            "name": "Chole Bhature",
+            "description": "Our signature chole with 4 fluffy bhature, onion, and pickle",
+            "price": "₹150"
+          },
+          {
+            "name": "Paneer Specialties",
+            "description": "Paneer butter masala, kadhai paneer, palak paneer — made with fresh cottage cheese",
+            "price": "₹220 – ₹280"
+          },
+          {
+            "name": "Banquet / Party Orders",
+            "description": "Catering for weddings, parties, and gatherings. Pure vegetarian. 50-500 pax.",
+            "price": "₹450/pax"
+          }
+        ],
+        "layout": "cards"
+      }
+    },
+    {
+      "type": "location",
+      "id": "location",
+      "title": "Find us",
+      "visible": true,
+      "content": {
+        "heading": "Find us",
+        "mapEmbed": "https://maps.google.com/?q=Sharma+Family+Restaurant+Prayagraj",
+        "address": "45, Sardar Patel Road, Civil Lines, Prayagraj, Uttar Pradesh, 211001",
+        "directions": "Landmark: Near Civil Lines Police Station"
+      }
+    },
+    {
+      "type": "contact",
+      "id": "contact",
+      "title": "Contact",
+      "visible": true,
+      "content": {
+        "heading": "Contact us",
+        "phone": "+91 94550 12345",
+        "whatsapp": "+91 94550 12345",
+        "email": "sharmarestaurant.ald@gmail.com",
+        "address": "45, Sardar Patel Road, Civil Lines, Prayagraj, Uttar Pradesh, 211001",
+        "mapUrl": "https://maps.google.com/?q=Sharma+Family+Restaurant+Prayagraj",
+        "hours": [
+          {
+            "day": "monday",
+            "open": "07:00",
+            "close": "22:00",
+            "closed": false
+          },
+          {
+            "day": "tuesday",
+            "open": "07:00",
+            "close": "22:00",
+            "closed": false
+          },
+          {
+            "day": "wednesday",
+            "open": "07:00",
+            "close": "22:00",
+            "closed": false
+          },
+          {
+            "day": "thursday",
+            "open": "07:00",
+            "close": "22:00",
+            "closed": false
+          },
+          {
+            "day": "friday",
+            "open": "07:00",
+            "close": "22:00",
+            "closed": false
+          },
+          {
+            "day": "saturday",
+            "open": "07:00",
+            "close": "23:00",
+            "closed": false
+          },
+          {
+            "day": "sunday",
+            "open": "08:00",
+            "close": "23:00",
+            "closed": false
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Get in touch",
+      "visible": true,
+      "content": {
+        "heading": "Ready to visit Sharma Family Restaurant?",
+        "description": "Pure Vegetarian. Pure Taste. Since 1985.",
+        "button": {
+          "label": "Chat on WhatsApp",
+          "action": "whatsapp"
+        }
+      }
+    }
+  ]
+}

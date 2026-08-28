@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#0E1F36"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative accent -->
+  <circle cx="980" cy="120" r="180" fill="#8B1A1A" opacity="0.18"/>
+  <circle cx="1080" cy="540" r="220" fill="#5B7553" opacity="0.14"/>
+
+  <!-- Brand mark -->
+  <g transform="translate(80, 80)">
+    <rect width="64" height="64" rx="14" fill="#ffffff" opacity="0.08"/>
+    <path d="M32 14 L48 28 L40 28 L40 50 L24 50 L24 28 L16 28 Z" fill="#ffffff"/>
+    <circle cx="32" cy="22" r="3" fill="#8B1A1A"/>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="280" font-family="'Manrope', 'Inter', system-ui, sans-serif" font-size="64" font-weight="700" fill="#ffffff">AI Local Business</text>
+  <text x="80" y="356" font-family="'Manrope', 'Inter', system-ui, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Website Factory</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="430" font-family="'Inter', system-ui, sans-serif" font-size="28" font-weight="400" fill="#ffffff" opacity="0.78">Structured business data in.</text>
+  <text x="80" y="468" font-family="'Inter', system-ui, sans-serif" font-size="28" font-weight="400" fill="#ffffff" opacity="0.78">Clean, accessible static website out.</text>
+
+  <!-- Footer chips -->
+  <g transform="translate(80, 530)">
+    <g>
+      <rect width="100" height="36" rx="18" fill="#ffffff" opacity="0.10"/>
+      <text x="50" y="24" font-family="'Inter', system-ui, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" opacity="0.9">Open source</text>
+    </g>
+    <g transform="translate(112, 0)">
+      <rect width="120" height="36" rx="18" fill="#ffffff" opacity="0.10"/>
+      <text x="60" y="24" font-family="'Inter', system-ui, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" opacity="0.9">India-first</text>
+    </g>
+    <g transform="translate(244, 0)">
+      <rect width="130" height="36" rx="18" fill="#ffffff" opacity="0.10"/>
+      <text x="65" y="24" font-family="'Inter', system-ui, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" opacity="0.9">XSS-safe by default</text>
+    </g>
+  </g>
+</svg>

@@ -23,9 +23,9 @@ jobs:
       - run: npm run typecheck
       - run: npm test
       - run: npm run render:all
-      - name: Upload rendered sites
+      - name: Upload rendered sites (artifact)
         uses: actions/upload-artifact@v4
         with:
-          name: rendered-sites
+          name: rendered-sites-${{ github.sha }}
           path: dist/
           retention-days: 7

@@ -6,6 +6,7 @@
   "description": "AI Local Business Website Factory — app foundation, renderer, and (later) AI generation pipeline.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "build:site": "node --import tsx/esm src/cli/render.ts --business ../samples/restaurant.json --out ../site/restaurant && node --import tsx/esm src/cli/render.ts --business ../samples/salon.json --out ../site/salon && node --import tsx/esm src/cli/render.ts --business ../samples/coaching.json --out ../site/coaching",
     "test": "vitest run",
     "test:watch": "vitest",
     "render": "node --import tsx/esm src/cli/render.ts",
@@ -13,6 +14,7 @@
     "render:salon": "node --import tsx/esm src/cli/render.ts --business ../samples/salon.json --out ../dist/salon",
     "render:coaching": "node --import tsx/esm src/cli/render.ts --business ../samples/coaching.json --out ../dist/coaching",
     "render:all": "node --import tsx/esm src/cli/render.ts --business ../samples/restaurant.json --out ../dist/restaurant && node --import tsx/esm src/cli/render.ts --business ../samples/salon.json --out ../dist/salon && node --import tsx/esm src/cli/render.ts --business ../samples/coaching.json --out ../dist/coaching",
+    "render:site": "node --import tsx/esm src/cli/render.ts --business ../samples/restaurant.json --out ../site/restaurant && node --import tsx/esm src/cli/render.ts --business ../samples/salon.json --out ../site/salon && node --import tsx/esm src/cli/render.ts --business ../samples/coaching.json --out ../site/coaching",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {

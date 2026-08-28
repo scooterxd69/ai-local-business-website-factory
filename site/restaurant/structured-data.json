@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sharma Family Restaurant",
+  "description": "Pure Vegetarian. Pure Taste. Since 1985.",
+  "telephone": "+91 94550 12345",
+  "email": "sharmarestaurant.ald@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "45, Sardar Patel Road, Civil Lines",
+    "addressLocality": "Prayagraj",
+    "addressRegion": "Uttar Pradesh",
+    "postalCode": "211001",
+    "addressCountry": "India"
+  },
+  "hasMap": "https://maps.google.com/?q=Sharma+Family+Restaurant+Prayagraj"
+}

@@ -1,0 +1,209 @@
+{
+  "version": "1.0.0",
+  "category": "salon",
+  "generatedAt": "2026-08-28T09:48:56.477Z",
+  "theme": {
+    "primaryColor": "#8B5A8B",
+    "accentColor": "#B08D57",
+    "backgroundColor": "#FAF8F3",
+    "textColor": "#1F2520",
+    "fontFamily": "modern",
+    "fontScale": "spacious",
+    "buttonStyle": "filled",
+    "imageTreatment": "rounded"
+  },
+  "seo": {
+    "title": "Luxe Beauty Studio — Your Style. Our Expertise. — Lucknow",
+    "description": "Lucknow's most loved unisex salon offering premium hair, skin, and grooming services. Our certified stylists bring the latest trends with a touch of Nawabi charm."
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "id": "hero",
+      "title": "Luxe Beauty Studio",
+      "visible": true,
+      "content": {
+        "headline": "Your Style. Our Expertise.",
+        "subheadline": "Lucknow, India",
+        "primaryCta": {
+          "label": "Call us",
+          "action": "call"
+        },
+        "secondaryCta": {
+          "label": "WhatsApp",
+          "action": "whatsapp"
+        },
+        "overlay": "gradient"
+      }
+    },
+    {
+      "type": "about",
+      "id": "about",
+      "title": "About",
+      "visible": true,
+      "content": {
+        "headline": "Your Style. Our Expertise.",
+        "body": "Lucknow's most loved unisex salon offering premium hair, skin, and grooming services. Our certified stylists bring the latest trends with a touch of Nawabi charm."
+      }
+    },
+    {
+      "type": "services",
+      "id": "services",
+      "title": "Our menu",
+      "visible": true,
+      "content": {
+        "heading": "Services",
+        "services": [
+          {
+            "name": "Haircut (Unisex)",
+            "description": "Wash, cut, and blow-dry by experienced stylists",
+            "price": "₹300 – ₹800",
+            "duration": "30-45 mins"
+          },
+          {
+            "name": "Hair Coloring",
+            "description": "Global coloring, highlights, balayage, root touch-up",
+            "price": "₹1,500 – ₹5,000",
+            "duration": "90-180 mins"
+          },
+          {
+            "name": "Facial & Skin Treatments",
+            "description": "Cleanup, facial, de-tan, skin polishing. Bridal and groom packages available.",
+            "price": "₹500 – ₹3,500",
+            "duration": "45-90 mins"
+          },
+          {
+            "name": "Manicure & Pedicure",
+            "description": "Classic, gel, spa — hands and feet",
+            "price": "₹400 – ₹1,200",
+            "duration": "45-90 mins"
+          },
+          {
+            "name": "Waxing",
+            "description": "Full body, half body, facial. Rica and normal wax available.",
+            "price": "₹300 – ₹1,500",
+            "duration": "30-60 mins"
+          }
+        ],
+        "layout": "cards"
+      }
+    },
+    {
+      "type": "pricing",
+      "id": "pricing",
+      "title": "Pricing",
+      "visible": true,
+      "content": {
+        "heading": "Pricing",
+        "pricingItems": [
+          {
+            "name": "Haircut (Unisex)",
+            "price": "₹300 – ₹800",
+            "description": "Wash, cut, and blow-dry by experienced stylists"
+          },
+          {
+            "name": "Hair Coloring",
+            "price": "₹1,500 – ₹5,000",
+            "description": "Global coloring, highlights, balayage, root touch-up"
+          },
+          {
+            "name": "Facial & Skin Treatments",
+            "price": "₹500 – ₹3,500",
+            "description": "Cleanup, facial, de-tan, skin polishing. Bridal and groom packages available."
+          },
+          {
+            "name": "Manicure & Pedicure",
+            "price": "₹400 – ₹1,200",
+            "description": "Classic, gel, spa — hands and feet"
+          },
+          {
+            "name": "Waxing",
+            "price": "₹300 – ₹1,500",
+            "description": "Full body, half body, facial. Rica and normal wax available."
+          }
+        ],
+        "note": "Prices are indicative. Please confirm with us for the latest."
+      }
+    },
+    {
+      "type": "booking",
+      "id": "booking",
+      "title": "Book an appointment",
+      "visible": true,
+      "content": {
+        "heading": "Book an appointment",
+        "description": "Tap the button below to reach us directly. We'll confirm your slot.",
+        "ctaText": "Book on WhatsApp",
+        "action": "whatsapp"
+      }
+    },
+    {
+      "type": "location",
+      "id": "location",
+      "title": "Find us",
+      "visible": true,
+      "content": {
+        "heading": "Find us",
+        "address": "Shop 12, Kapoorthala Complex, Aliganj, Lucknow, Uttar Pradesh, 226024",
+        "directions": "Landmark: Near Kapoorthala Bagh"
+      }
+    },
+    {
+      "type": "contact",
+      "id": "contact",
+      "title": "Contact",
+      "visible": true,
+      "content": {
+        "heading": "Contact us",
+        "phone": "+91 88818 88800",
+        "whatsapp": "+91 88818 88800",
+        "email": "hello@luxebeauty.in",
+        "address": "Shop 12, Kapoorthala Complex, Aliganj, Lucknow, Uttar Pradesh, 226024",
+        "hours": [
+          {
+            "day": "monday",
+            "open": "10:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "tuesday",
+            "open": "10:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "wednesday",
+            "open": "10:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "thursday",
+            "open": "10:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "friday",
+            "open": "10:00",
+            "close": "20:00",
+            "closed": false
+          },
+          {
+            "day": "saturday",
+            "open": "09:00",
+            "close": "21:00",
+            "closed": false
+          },
+          {
+            "day": "sunday",
+            "open": "10:00",
+            "close": "18:00",
+            "closed": false
+          }
+        ]
+      }
+    }
+  ]
+}
