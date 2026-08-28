@@ -12,7 +12,7 @@
 **Production URL:** https://scooterxd69.github.io/ai-local-business-website-factory/
 **Host:** GitHub Pages (build_type=workflow, HTTPS enforced)
 **Deployment date:** 2026-08-28
-**Production commit:** recorded in `docs/handoff/PROJECT-001-PRODUCTION-RELEASE.md` after final push
+**Production commit:** `71d10ee` (production-deployed site content); `e4e3365` is current tip of `main` and differs only in this doc
 **Current version:** Milestone 1 (renderer foundation) — v0.1.0
 
 ---
