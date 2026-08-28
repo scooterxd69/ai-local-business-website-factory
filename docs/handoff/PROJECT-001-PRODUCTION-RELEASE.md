@@ -5,7 +5,11 @@
 **GITHUB:** https://github.com/scooterxd69/ai-local-business-website-factory
 **HOST:** GitHub Pages
 **PUBLIC URL:** https://scooterxd69.github.io/ai-local-business-website-factory/
-**PRODUCTION COMMIT:** `71d10ee5999acf3546cc9b77aa231000b4d9cfd8` (`Prepare Project 001 for production release`)
+**PRODUCTION COMMIT:** `71d10ee5999acf3546cc9b77aa231000b4d9cfd8`
+(`Prepare Project 001 for production release`). The current tip of
+`main` is `f4529de`; that commit only records the production SHA in
+this document and does not change any deployed files. The deployed
+content is identical to `71d10ee`.
 **DEPLOYMENT DATE:** 2026-08-28
 
 ---
