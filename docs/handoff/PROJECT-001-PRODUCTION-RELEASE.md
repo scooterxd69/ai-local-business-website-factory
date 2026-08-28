@@ -5,7 +5,7 @@
 **GITHUB:** https://github.com/scooterxd69/ai-local-business-website-factory
 **HOST:** GitHub Pages
 **PUBLIC URL:** https://scooterxd69.github.io/ai-local-business-website-factory/
-**PRODUCTION COMMIT:** See "Deployed commit" below; recorded at end of this doc.
+**PRODUCTION COMMIT:** `71d10ee5999acf3546cc9b77aa231000b4d9cfd8` (`Prepare Project 001 for production release`)
 **DEPLOYMENT DATE:** 2026-08-28
 
 ---
@@ -192,4 +192,17 @@ Out of M2 scope: web UI, persistence, hosting tier, payments.
 
 ## Deployed commit
 
-To be filled in after the final push.
+- **Production commit:** `71d10ee5999acf3546cc9b77aa231000b4d9cfd8` —
+  `Prepare Project 001 for production release`
+- **Parent commit:** `bc532f9` — `feat: Milestone 1 - renderer foundation`
+- **Branch:** `main`
+
+To verify locally:
+
+```bash
+git clone https://github.com/scooterxd69/ai-local-business-website-factory
+cd ai-local-business-website-factory
+git checkout 71d10ee
+```
+
+The deployed site corresponds to the `site/` tree as of that commit.
