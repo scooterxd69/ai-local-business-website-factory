@@ -1,0 +1,80 @@
+{
+  "category": "restaurant",
+  "identity": {
+    "name": "Sharma Family Restaurant",
+    "tagline": "Pure Vegetarian. Pure Taste. Since 1985.",
+    "description": "A beloved Prayagraj institution serving authentic North Indian and South Indian vegetarian cuisine for over 38 years. Known for our dosas, chole bhature, and paneer dishes.",
+    "category": "restaurant",
+    "yearEstablished": 1985,
+    "ownerName": "Rajesh Sharma"
+  },
+  "contact": {
+    "phone": "+91 94550 12345",
+    "phoneDisplay": "+91 94550 12345",
+    "whatsapp": "+91 94550 12345",
+    "email": "sharmarestaurant.ald@gmail.com"
+  },
+  "location": {
+    "addressLine1": "45, Sardar Patel Road",
+    "addressLine2": "Civil Lines",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "postalCode": "211001",
+    "country": "India",
+    "landmark": "Near Civil Lines Police Station",
+    "googleMapsUrl": "https://maps.google.com/?q=Sharma+Family+Restaurant+Prayagraj"
+  },
+  "hours": {
+    "schedule": [
+      { "day": "monday", "open": "07:00", "close": "22:00", "closed": false },
+      { "day": "tuesday", "open": "07:00", "close": "22:00", "closed": false },
+      { "day": "wednesday", "open": "07:00", "close": "22:00", "closed": false },
+      { "day": "thursday", "open": "07:00", "close": "22:00", "closed": false },
+      { "day": "friday", "open": "07:00", "close": "22:00", "closed": false },
+      { "day": "saturday", "open": "07:00", "close": "23:00", "closed": false },
+      { "day": "sunday", "open": "08:00", "close": "23:00", "closed": false }
+    ]
+  },
+  "services": [
+    {
+      "name": "South Indian Breakfast",
+      "description": "Masala dosa, plain dosa, idli, vada, uttapam with sambar and chutney",
+      "price": "₹80 – ₹180"
+    },
+    {
+      "name": "North Indian Thali",
+      "description": "Dal, 3 rotis, rice, paneer, salad, papad, sweet — unlimited",
+      "price": "₹299"
+    },
+    {
+      "name": "Chole Bhature",
+      "description": "Our signature chole with 4 fluffy bhature, onion, and pickle",
+      "price": "₹150"
+    },
+    {
+      "name": "Paneer Specialties",
+      "description": "Paneer butter masala, kadhai paneer, palak paneer — made with fresh cottage cheese",
+      "price": "₹220 – ₹280"
+    },
+    {
+      "name": "Banquet / Party Orders",
+      "description": "Catering for weddings, parties, and gatherings. Pure vegetarian. 50-500 pax.",
+      "price": "₹450/pax"
+    }
+  ],
+  "brand": {
+    "toneOfVoice": "warm",
+    "preferredStyle": "Traditional, clean, photo-heavy"
+  },
+  "social": {
+    "facebook": "https://facebook.com/sharmarestaurant.ald",
+    "instagram": "https://instagram.com/sharmarestaurant_ald"
+  },
+  "extras": {
+    "cuisineType": ["North Indian", "South Indian", "Vegetarian"],
+    "priceRange": "₹₹",
+    "seatingCapacity": 80,
+    "takeawayAvailable": true,
+    "deliveryAvailable": true
+  }
+}

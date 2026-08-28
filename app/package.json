@@ -1,0 +1,27 @@
+{
+  "name": "ai-local-business-website-factory-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Local Business Website Factory — app foundation, renderer, and (later) AI generation pipeline.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "render": "node --import tsx/esm src/cli/render.ts",
+    "render:restaurant": "node --import tsx/esm src/cli/render.ts --business ../samples/restaurant.json --out ../dist/restaurant",
+    "render:salon": "node --import tsx/esm src/cli/render.ts --business ../samples/salon.json --out ../dist/salon",
+    "render:coaching": "node --import tsx/esm src/cli/render.ts --business ../samples/coaching.json --out ../dist/coaching",
+    "render:all": "node --import tsx/esm src/cli/render.ts --business ../samples/restaurant.json --out ../dist/restaurant && node --import tsx/esm src/cli/render.ts --business ../samples/salon.json --out ../dist/salon && node --import tsx/esm src/cli/render.ts --business ../samples/coaching.json --out ../dist/coaching",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.4",
+    "tsx": "4.19.1",
+    "typescript": "5.6.2",
+    "vitest": "2.1.1"
+  }
+}

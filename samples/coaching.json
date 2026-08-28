@@ -1,0 +1,85 @@
+{
+  "category": "coaching",
+  "identity": {
+    "name": "Bright Minds Tutorials",
+    "tagline": "Building Futures. One Concept at a Time.",
+    "description": "Patna's trusted coaching institute for JEE, NEET, and Board exam preparation. With 15 years of teaching excellence, we have helped over 3,000 students crack competitive exams.",
+    "category": "coaching",
+    "yearEstablished": 2009,
+    "ownerName": "Dr. Anil Kumar"
+  },
+  "contact": {
+    "phone": "+91 98354 12345",
+    "phoneDisplay": "+91 98354 12345",
+    "whatsapp": "+91 98354 12345",
+    "email": "admissions@brightmindspatna.in"
+  },
+  "location": {
+    "addressLine1": "2nd Floor, Raghunath Bhavan",
+    "addressLine2": "Boring Road, Patna",
+    "city": "Patna",
+    "state": "Bihar",
+    "postalCode": "800001",
+    "country": "India",
+    "landmark": "Near Gandhi Maidan"
+  },
+  "hours": {
+    "schedule": [
+      { "day": "monday", "open": "08:00", "close": "20:00", "closed": false },
+      { "day": "tuesday", "open": "08:00", "close": "20:00", "closed": false },
+      { "day": "wednesday", "open": "08:00", "close": "20:00", "closed": false },
+      { "day": "thursday", "open": "08:00", "close": "20:00", "closed": false },
+      { "day": "friday", "open": "08:00", "close": "20:00", "closed": false },
+      { "day": "saturday", "open": "08:00", "close": "18:00", "closed": false },
+      { "day": "sunday", "open": "09:00", "close": "14:00", "closed": false }
+    ]
+  },
+  "services": [
+    {
+      "name": "JEE Dropper Batch",
+      "description": "Intensive 1-year program for JEE Main + Advanced. Daily tests, doubt sessions, mock tests.",
+      "price": "₹1,20,000/year"
+    },
+    {
+      "name": "NEET Foundation (Class 11-12)",
+      "description": "PCB preparation with Biology, Physics, and Chemistry specialists. Board + NEET integrated.",
+      "price": "₹85,000/year"
+    },
+    {
+      "name": "Board Exam Coaching (Class 10-12)",
+      "description": "CBSE + BSEB preparation with focused syllabus coverage and model test papers.",
+      "price": "₹40,000/year"
+    },
+    {
+      "name": "Foundation Course (Class 8-10)",
+      "description": "Build strong fundamentals in Science and Mathematics. NTSE and Olympiad preparation included.",
+      "price": "₹35,000/year"
+    },
+    {
+      "name": "Crash Courses",
+      "description": "30-day intensive revision before board and competitive exams.",
+      "price": "₹8,000 – ₹15,000"
+    },
+    {
+      "name": "Test Series",
+      "description": "Weekly tests for JEE/NEET. All-India ranking. Detailed analysis.",
+      "price": "₹3,000/month"
+    }
+  ],
+  "brand": {
+    "primaryColor": "#1E3A5F",
+    "toneOfVoice": "formal",
+    "preferredStyle": "Academic, structured, trustworthy"
+  },
+  "social": {
+    "facebook": "https://facebook.com/brightmindspatna",
+    "instagram": "https://instagram.com/brightmindspatna",
+    "youtube": "https://youtube.com/@brightmindspatna"
+  },
+  "extras": {
+    "subjects": ["Physics", "Chemistry", "Mathematics", "Biology", "English"],
+    "classSizes": "20-30 students per batch",
+    "mode": "Hybrid",
+    "demoClassAvailable": true
+  }
+}
